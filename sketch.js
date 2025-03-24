@@ -1,11 +1,5 @@
 /**
  * Creative Coding Particle System
- * 
- * References:
- * - Particle Systems adapted from p5.js examples: https://p5js.org/examples/simulate-particle-system.html
- * - Vector mathematics from p5.js Vector reference: https://p5js.org/reference/#/p5.Vector
- * - Animation techniques inspired by The Nature of Code by Daniel Shiffman: https://natureofcode.com/
- * - Color manipulation from w3schools: https://www.w3schools.com/colors/colors_rgb.asp
  */
 
 let particles = []; 
@@ -15,7 +9,7 @@ let colorSchemes = [
     ['#2C3639', '#3F4E4F', '#A27B5C', '#DCD7C9', '#FFFFFF'], // Earthy
     ['#9B5DE5', '#F15BB5', '#FEE440', '#00BBF9', '#00F5D4']  // Neon
 ];
-let currentColorScheme = 0;
+let current color scheme = 0;
 let colors = colorSchemes[currentColorScheme];
 let shapes = ['circle', 'triangle'];
 
