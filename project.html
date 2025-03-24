@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Particle Animation Project</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navigation">
+        <a href="index.html" class="nav-link">← Back to Home</a>
+    </nav>
+    
+    <div class="project-container">
+        <h1>Interactive Particle Animation</h1>
+        <p class="project-description">
+            An interactive particle system demonstrating array operations, loops, and particle physics.
+            Create and animate particles in various patterns and colors.
+        </p>
+        
+        <div id="canvas-container"></div>
+        
+        <div class="controls">
+            <div class="shape-controls">
+                <button id="addCircles">Add Circles</button>
+                <button id="addTriangles">Add Triangles</button>
+            </div>
+            <div class="pattern-controls">
+                <button id="toggleLoop">Start Loop</button>
+                <select id="patternSelect">
+                    <option value="circle">Circular Pattern</option>
+                    <option value="wave">Wave Pattern</option>
+                </select>
+            </div>
+            <div class="general-controls">
+                <button id="clearParticles">Clear All</button>
+            </div>
+        </div>
+        
+        <div class="instructions">
+            <h2>How to Use</h2>
+            <ul>
+                <li>Click and drag to create random particles</li>
+                <li>Use shape buttons to add specific particles</li>
+                <li>Press 'C' to cycle through color schemes</li>
+                <li>Select a pattern and click "Start Loop" to animate</li>
+                <li>Use "Clear All" to reset</li>
+            </ul>
+            
+            <h2>Technical Features</h2>
+            <ul>
+                <li>Array operations (push, splice)</li>
+                <li>For loops for particle updates</li>
+                <li>Object-oriented particle system</li>
+                <li>Interactive DOM elements</li>
+                <li>P5.js animation framework</li>
+            </ul>
+        </div>
+    </div>
+    
+    <script src="sketch.js"></script>
+</body>
+</html> 
